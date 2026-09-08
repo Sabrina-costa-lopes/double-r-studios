@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#090b0e">
+    <meta name="robots" content="index, follow">
+
+    <title>Double R Studios | Video Editing</title>
+    <meta
+        name="description"
+        content="High-impact short and long-form video editing for creators and brands. Double R Studios turns raw footage into content worth watching."
+    >
+
+    <link rel="icon" type="image/png" href="./assets/logoR.png">
+    <link rel="apple-touch-icon" href="./assets/logoR.png">
+
+    <link rel="preload" href="./assets/mylon-logo.png" as="image">
+    <link rel="preload" href="./assets/kennzy-logo.png" as="image">
+    <link rel="preload" href="./assets/guiven-logo.png" as="image">
+    <link rel="preload" href="./assets/samkz-logo.png" as="image">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header class="header">
+    <nav class="navigation navigation-left" aria-label="Portfolio navigation">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+    </nav>
+
+    <a href="#home" class="header-logo" aria-label="Double R Studios — Home">
+        <img src="assets/logoR.png" alt="Double R Studios">
+    </a>
+
+    <nav class="navigation navigation-right" aria-label="Company navigation">
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+    >
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation">
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+    <main>
+        <section class="hero" id="home">
+    <div class="hero-content">
+        <h1>
+            We Edit.
+            <span>You Grow.</span>
+        </h1>
+
+        <p class="hero-description">
+            High-impact video editing for creators and brands.
+        </p>
+
+        <div class="hero-actions">
+            <a href="#work" class="button button-primary">
+                View Our Work
+            </a>
+
+            <a href="#contact" class="button button-secondary">
+                Start a Project
+            </a>
+        </div>
+    </div>
+
+    <div class="hero-media">
+        <div class="hero-red-flash"></div>
+
+        <div class="hero-video hero-video-reel">
+            <video autoplay muted loop playsinline preload="metadata">
+                <source src="assets/reels-guiven-hero-optimized.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="hero-video hero-video-timeline">
+            <video autoplay muted loop playsinline preload="metadata">
+                <source src="assets/guiven-time-line-hero-optimized.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</section>
+
+
+    <section class="creators" aria-labelledby="creators-title">
+    <h2 id="creators-title">Trusted by Creators</h2>
+
+    <div class="carousel-wrapper">
+        <div class="creators-carousel">
+
+            <!-- First group -->
+            <div class="creators-group">
+
+                <a
+                    href="https://www.youtube.com/@Mylonzete"
+                    class="creator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Visit Mylonzete on YouTube"
+                >
+                    <div class="creator-logo">
+                        <img
+                            src="./assets/mylon-logo.png"
+                            alt="Mylonzete channel logo"
+                            width="150"
+                            height="150"
+                            loading="eager"
+                            decoding="async"
+                        >
+                    </div>
+
+                    <h3>Mylonzete</h3>
+                </a>
+
+                <a
+                    href="https://www.youtube.com/@Kennzy"
+                    class="creator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Visit Kennzy on YouTube"
+                >
+                    <div class="creator-logo">
+                        <img
+                            src="./assets/kennzy-logo.png"
+                            alt="Kennzy channel logo"
+                            width="150"
+                            height="150"
+                            loading="eager"
+                            decoding="async"
+                        >
+                    </div>
+
+                    <h3>Kennzy</h3>
+                </a>
+
+                <a
+                    href="https://www.youtube.com/@guiven1"
+                    class="creator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Visit Guiven on YouTube"
+                >
+                    <div class="creator-logo">
+                        <img
+                            src="./assets/guiven-logo.png"
+                            alt="Guiven channel logo"
+                            width="150"
+                            height="150"
+                            loading="eager"
+                            decoding="async"
+                        >
+                    </div>
+
+                    <h3>Guiven</h3>
+                </a>
+
+                <a
+                    href="https://www.youtube.com/@Samkzlol"
+                    class="creator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Visit Samkz11 on YouTube"
+                >
+                    <div class="creator-logo">
+                        <img
+                            src="./assets/samkz-logo.png"
+                            alt="Samkz11 channel logo"
+                            width="150"
+                            height="150"
+                            loading="eager"
+                            decoding="async"
+                        >
+                    </div>
+
+                    <h3>Samkz11</h3>
+                </a>
+
+            </div>
+
+            <!-- Duplicate group for infinite animation -->
+            <div class="creators-group" aria-hidden="true">
+
+                <a
+                    href="https://www.youtube.com/@Mylonzete"
+                    class="creator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    tabindex="-1"
+                >
+                    <div class="creator-logo">
+                        <img
+                            src="./assets/mylon-logo.png"
+                            alt=""
+                            width="150"
+                            height="150"
+                            loading="eager"
+                            decoding="async"
+                        >
+                    </div>
+
+                    <h3>Mylonzete</h3>
+                </a>
+
+                <a
+                    href="https://www.youtube.com/@Kennzy"
+                    class="creator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    tabindex="-1"
+                >
+                    <div class="creator-logo">
+                        <img
+                            src="./assets/kennzy-logo.png"
+                            alt=""
+                            width="150"
+                            height="150"
+                            loading="eager"
+                            decoding="async"
+                        >
+                    </div>
+
+                    <h3>Kennzy</h3>
+                </a>
+
+                <a
+                    href="https://www.youtube.com/@guiven1"
+                    class="creator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    tabindex="-1"
+                >
+                    <div class="creator-logo">
+                        <img
+                            src="./assets/guiven-logo.png"
+                            alt=""
+                            width="150"
+                            height="150"
+                            loading="eager"
+                            decoding="async"
+                        >
+                    </div>
+
+                    <h3>Guiven</h3>
+                </a>
+
+                <a
+                    href="https://www.youtube.com/@Samkzlol"
+                    class="creator"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    tabindex="-1"
+                >
+                    <div class="creator-logo">
+                        <img
+                            src="./assets/samkz-logo.png"
+                            alt=""
+                            width="150"
+                            height="150"
+                            loading="eager"
+                            decoding="async"
+                        >
+                    </div>
+
+                    <h3>Samkz11</h3>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <p class="carousel-hint">
+        Tap or click to visit the channel
+    </p>
+</section>
+
+        <section class="work" id="work">
+            <p class="section-label">Our Portfolio</p>
+            <h2>Selected Channels &amp; Work</h2>
+
+<div class="projects">
+
+    <!-- MYLONZETE -->
+    <article class="project-card">
+        <div class="project-channel">
+            <a
+                href="https://www.youtube.com/@Mylonzete"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-channel-image"
+                aria-label="Visit Mylonzete's YouTube channel"
+            >
+                <img
+                    src="./assets/mylon-logo.png"
+                    alt="Mylonzete"
+                    width="260"
+                    height="260"
+                >
+            </a>
+
+            <div class="project-information">
+                <span class="project-number">Channel 01</span>
+
+                <h3>Mylonzete</h3>
+
+                <p class="project-category">
+                    Gaming Creator
+                </p>
+
+                <div class="project-views">
+                    <strong>820K</strong>
+                    <span>Views</span>
+                </div>
+
+                <p class="project-services">
+                    Short-form Editing · Captions · Sound Design
+                </p>
+
+                <a
+                    href="https://www.instagram.com/mylennzy/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                >
+                    Visit Instagram <span>↗</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="project-video">
+            <video
+                controls
+                playsinline
+                preload="metadata"
+                aria-label="Video edited for Mylonzete"
+            >
+                <source src="./assets/mylon.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+        </div>
+    </article>
+
+    <!-- GUIVEN -->
+    <article class="project-card project-card-reverse">
+        <div class="project-channel">
+            <a
+                href="https://www.youtube.com/@guiven1"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-channel-image"
+                aria-label="Visit Guiven's YouTube channel"
+            >
+                <img
+                    src="./assets/guiven-logo.png"
+                    alt="Guiven"
+                    width="260"
+                    height="260"
+                >
+            </a>
+
+            <div class="project-information">
+                <span class="project-number">Channel 02</span>
+
+                <h3>Guiven</h3>
+
+                <p class="project-category">
+                    Gaming Creator
+                </p>
+
+                <div class="project-views">
+                    <strong>550K</strong>
+                    <span>Views</span>
+                </div>
+
+                <p class="project-services">
+                    Short-form Editing · Pacing · Visual Effects
+                </p>
+
+                <a
+                    href="https://www.instagram.com/guiven11/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                >
+                    Visit Instagram <span>↗</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="project-video">
+            <video
+                controls
+                playsinline
+                preload="metadata"
+                aria-label="Video edited for Guiven"
+            >
+                <source src="./assets/guiven.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+        </div>
+    </article>
+
+    <!-- KENNZY -->
+    <article class="project-card">
+        <div class="project-channel">
+            <a
+                href="https://www.youtube.com/@Kennzy"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-channel-image"
+                aria-label="Visit Kennzy's YouTube channel"
+            >
+                <img
+                    src="./assets/kennzy-logo.png"
+                    alt="Kennzy"
+                    width="260"
+                    height="260"
+                >
+            </a>
+
+            <div class="project-information">
+                <span class="project-number">Channel 03</span>
+
+                <h3>Kennzy</h3>
+
+                <p class="project-category">
+                    Gaming Creator
+                </p>
+
+                <div class="project-views">
+                    <strong>335K</strong>
+                    <span>Views</span>
+                </div>
+
+                <p class="project-services">
+                    Short-form Editing · Captions · Visual Effects
+                </p>
+
+                <a
+                    href="https://www.instagram.com/kennzy/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-link"
+                >
+                    Visit Instagram <span>↗</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="project-video">
+            <video
+                controls
+                playsinline
+                preload="metadata"
+                aria-label="Video edited for Kennzy"
+            >
+                <source src="./assets/kennzy.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+        </div>
+    </article>
+
+</div>
+        </section>
+
+        <section class="services" id="services">
+            <p class="section-label">What We Do</p>
+            <h2>Services</h2>
+
+            <div class="services-grid">
+    <article class="service-card">
+        <span>01</span>
+
+        <h3>Short-Form Editing</h3>
+
+        <p>
+            Fast-paced edits for Reels, TikTok and YouTube Shorts,
+            built to capture attention and improve audience retention.
+        </p>
+    </article>
+
+    <article class="service-card">
+        <span>02</span>
+
+        <h3>Long-Form Editing</h3>
+
+        <p>
+            Polished YouTube videos shaped through strong storytelling,
+            dynamic pacing and engaging visual elements.
+        </p>
+    </article>
+
+    <article class="service-card">
+        <span>03</span>
+
+        <h3>Gaming Content</h3>
+
+        <p>
+            Gameplay videos, highlights and stream edits enhanced with
+            captions, sound design, memes and visual effects.
+        </p>
+    </article>
+
+    <article class="service-card">
+        <span>04</span>
+
+        <h3>Content Repurposing</h3>
+
+        <p>
+            Long videos and livestreams transformed into compelling
+            short-form content ready for multiple platforms.
+        </p>
+    </article>
+</div>
+        </section>
+
+        <section class="about" id="about">
+    <p class="section-label">Our Story</p>
+
+    <h2>
+        From a Childhood Dream<br>
+        to Stories Worth Watching.
+    </h2>
+
+    <div class="about-content">
+        <p>
+            Double R Studios began with a childhood dream: to create
+            incredible stories for the big screen.
+            <br><br>
+            That fascination with cinema soon became a passion for video
+            editing—a way to combine creativity, storytelling and emotion
+            while turning raw footage into content people genuinely want
+            to watch.
+            <br><br>
+            With over two years of experience editing and managing gaming
+            content, that early dream has evolved into a studio focused on
+            helping creators and brands capture attention, connect with
+            their audiences and bring their ideas to life.
+        </p>
+
+        <strong class="about-statement">
+            More Than Editing.<br>
+            We Shape Attention.
+        </strong>
+    </div>
+</section>
+
+        <section class="contact" id="contact">
+    <p class="section-label">Get in Touch</p>
+
+    <h2>
+        Have the footage?
+        <span>Let's make it worth watching.</span>
+    </h2>
+
+    <p class="contact-description">
+        Ready to bring your ideas to life? Get in touch and tell us
+        about your next project.
+    </p>
+
+   <div class="contact-links">
+    <a
+        href="mailto:contact.doublerstudios@gmail.com"
+        class="contact-item"
+    >
+        <span class="contact-number">01</span>
+
+        <div>
+            <span class="contact-type">Email</span>
+            <strong>contact.doublerstudios@gmail.com</strong>
+        </div>
+
+        <span class="contact-arrow">↗</span>
+    </a>
+
+    <a
+        href="https://www.instagram.com/doublerstudios_/"
+        class="contact-item"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        <span class="contact-number">02</span>
+
+        <div>
+            <span class="contact-type">Instagram</span>
+            <strong>@doublerstudios_</strong>
+        </div>
+
+        <span class="contact-arrow">↗</span>
+    </a>
+
+    <a
+        href="https://x.com/doublerstudios_"
+        class="contact-item"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        <span class="contact-number">03</span>
+
+        <div>
+            <span class="contact-type">X / Twitter</span>
+            <strong>@doublerstudios_</strong>
+        </div>
+
+        <span class="contact-arrow">↗</span>
+    </a>
+</div>
+</section>
+    </main>
+
+    <footer class="footer">
+        <p>Double R Studios</p>
+        <p>&copy; 2026 Double R Studios. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
